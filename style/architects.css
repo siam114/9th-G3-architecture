@@ -180,6 +180,18 @@
     filter: grayscale(100%);
     margin-top: 20px;
   }
+
+  /* footer section */
+  footer{
+    max-width: 1250px;
+    margin: 0 auto;
+    background-color: #FFF4E7;
+  }
+  .footer-description{
+    font-size: 1rem;
+    font-weight: 300;
+    padding: 38px 390px;
+  }
  
 
   /*responsive media query */
@@ -209,7 +221,12 @@
     }
     #experience-badge{
       margin-top: 20px;
-      margin-left: 150px;
+      margin-left: 180px;
+    }
+    .footer-description{
+      font-size: 1rem;
+      font-weight: 300;
+      padding: 30px 35px;
     }
   }
   
@@ -237,4 +254,11 @@
     .feature-img{
       width: 100%;
     }
+    .footer-description{
+      font-size: 1rem;
+      font-weight: 300;
+      padding: 30px 200px;
+    }
+   
   }
+  
